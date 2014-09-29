@@ -21,7 +21,7 @@ var config = module.exports = {
         },
 
         // production build output folders
-        target: {
+        target: { 
             dev   : 'dist/dev/'
         }
     }

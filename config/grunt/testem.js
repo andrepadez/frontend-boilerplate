@@ -9,7 +9,6 @@ module.exports = {
             framework: 'mocha',
             launch_in_ci: ['PhantomJS'],
             launch_in_dev: ['PhantomJS'/*, 'Chrome', 'Safari'*/],
-            before_tests: 'echo before_tests',
             reporting: "spec"
         } 
     }

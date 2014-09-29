@@ -1,0 +1,11 @@
+info Test'em starting... 
+info Seeking for config file... 
+info Hook before_tests started 
+info Hook before_tests finished 
+info Launching PhantomJS 
+info spawning: phantomjs - ["/usr/local/lib/node_modules/testem/assets/phantom.js","http://localhost:7357/1167"] 
+info New client connected: PhantomJS 1.9 1167 
+info Hook after_tests started 
+info Hook after_tests finished 
+info Got keyboard Quit command 
+info
