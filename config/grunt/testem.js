@@ -3,6 +3,7 @@ module.exports = {
         src: [
             'node_modules/chai/chai.js',
             'config/chai_shim.js',
+            'config/require_shim.js',
             'tests/**/*.js'
         ],
         options: {

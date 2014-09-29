@@ -1,14 +1,16 @@
-var fs = require('fs'); console.log(fs);
+var ROOT = '../project/app/';
 
-var ROOT = '/project/app/';
+window.module = {};
 
-window.require = function(path){
-	var xhr = new XMLHttpRequest();
-	xhr.onload = function(){
-		console.log(xhr.responseText);
+var theRequire = function(path, cb){
+	window.require = function(){};
+	var script = document.createElement('script');
+	script.src = ROOT + path;
+	script.onload = function(){
+		window.require = theRequire;
+		if(typeof cb === 'function'){ cb(); }	
 	};
-	xhr.open('get', ROOT + path);
-	xhr.send();
+	document.head.appendChild(script);
 };
 
-//require('index.js');
+window.require = theRequire;
