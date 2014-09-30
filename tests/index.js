@@ -1,15 +1,13 @@
 
 describe('Application', function(){
-	var app;
-
 	before(function(done){
-		require('index.js', function(){
-			app = module.exports;
-			done();
-		});
+		require(['app', 'test'], done);
 	});
 
+	after(require.unregister);
+
 	it('should initiate without errors', function(){
+		assert.equal(test, 'TESTE');
 		assert.doesNotThrow(app.init);
 	});
 });
