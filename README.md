@@ -19,3 +19,13 @@
     grunt test
     //run in dev mode
     grunt dev
+
+# Remarks
+#### If you're using tmux, 
+##### you should run:
+
+    brew install reattach-to-user-namespace
+
+and add the following line to the .tmux.conf file:
+
+    set-option -g default-command "reattach-to-user-namespace -l bash"
