@@ -1,3 +1,5 @@
+var assert = chai.assert;
+
 describe('Application', function(){
     before(function(done){
         require('somemodule/changename/changename', done, {
