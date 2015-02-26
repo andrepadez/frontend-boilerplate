@@ -8,7 +8,7 @@ describe('Application', function(){
 	after(require.unregister);
 
 	it('Application should initiate without errors', function(){
-		assert.doesNotThrow(app.init);
+        assert.doesNotThrow(app.init);
 	});
 
     it('test module should be required correctly', function(){
