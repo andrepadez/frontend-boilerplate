@@ -19,6 +19,7 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-testem": "^0.5.16",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-text-replace": "^0.3.12"
+    "grunt-text-replace": "^0.3.12",
+    "jquery": "^2.1.1"
   }
 }

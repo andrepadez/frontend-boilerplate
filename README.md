@@ -1,5 +1,7 @@
 # Frontend Boilerplate
 
+[codeship]: https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master "Codeship Badge"
+
 ## Full solution for frontend project startup
 * Grunt for automation
 * browserify for nodejs style require and module.exports
