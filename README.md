@@ -1,6 +1,6 @@
 # Frontend Boilerplate
 
-[codeship]: https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master "Codeship Badge"
+[codeship]: https://codeship.com/projects/2f7177d0-9fe4-0132-4781-161c16488463/status?branch=master "Codeship Badge"
 
 ## Full solution for frontend project startup
 * Grunt for automation
