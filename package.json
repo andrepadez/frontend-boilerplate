@@ -4,7 +4,7 @@
   "description": "gibberish",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "testem"
+    "test": "testem ci"
   },
   "author": "",
   "license": "ISC",
